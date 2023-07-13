@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 44px;
+}
+
+.links {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.top__title{
+    margin-bottom: 17px;
+}
+
+.button__start{
+    margin-top: 37px;
+}
+
+.button__watch{
+    margin-top: 52px;
+    border: 0;
+}
+
+.top__logos{
+    margin-top: 162px;
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
