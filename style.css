@@ -1,10 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-}
-
-a {
-    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
 }
 
 .header{
@@ -13,26 +11,114 @@ a {
     margin-bottom: 44px;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
 .links {
-    margin-top: 11px;
-    margin-bottom: 11px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+}
+
+.header__link{
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.linkhome{
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__content{
+    margin-bottom: 162px;
 }
 
 .top__title{
     margin-bottom: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 40px;
+}
+
+.top__text{
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+    padding-right: 96px;
+}
+
+.top__info{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .button__start{
-    margin-top: 37px;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
 }
 
 .button__watch{
-    margin-top: 52px;
-    border: 0;
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 72px;
 }
 
 .top__logos{
-    margin-top: 162px;
     padding-top: 97px;
     padding-bottom: 96px;
+}
+
+.footer__logo{
+    width: 160px;
+    height: 50px;
+    flex-shrink: 0;
 }
